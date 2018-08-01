@@ -2,10 +2,10 @@ function mostrar()
 {
 
     var numero;
-	var contador;
+	var contador=1;
 	var respuesta='si';
-	var maximo=0;
-	var minimo=0;
+	var maximo;
+	var minimo;
 
 	while (respuesta=='si')
 	{
@@ -24,13 +24,16 @@ if (numero > maximo)
 
 }
 
-if (numero < minimo)
+if (numero <= minimo)
 {
 
     minimo = numero;
-contador++;
+
 }
-   respuesta = prompt ("queres seguir?");}
+contador++;
+
+respuesta = prompt ("queres seguir?");
+}
 
 document.getElementById('maximo').value=maximo;
 
