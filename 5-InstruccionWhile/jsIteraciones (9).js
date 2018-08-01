@@ -4,8 +4,8 @@ function mostrar()
     var numero;
 	var contador;
 	var respuesta='si';
-	var maximo;
-	var minimo;
+	var maximo=0;
+	var minimo=0;
 
 	while (respuesta=='si')
 	{
